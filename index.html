@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hiren Patel is a Winnipeg-based backend software developer and Programmer Analyst at Pollard Banknote, open to backend and applied AI software roles.">
+  <title>Hiren Patel · Backend Software Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="projects.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <nav class="wrap nav" aria-label="Main navigation">
+      <a class="brand" href="#main">Hiren Patel<span>.</span></a>
+      <div class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#ai">AI &amp; cloud</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="intro">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow">Backend software developer <span>·</span> Winnipeg, MB</p>
+          <h1 id="intro">Hiren Patel<span>.</span></h1>
+          <p class="lead">I build C++ systems that take customer requirements into production.</p>
+          <p class="intro">At Pollard Banknote, I turn scratch-ticket game requirements into software, automate setup, and make sure the data is ready for production. I’m building on that experience by studying how AI applications are built and deployed.</p>
+          <p class="availability">Open to backend and AI software engineering roles.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://www.linkedin.com/in/hiren456/">Connect on LinkedIn</a>
+            <a href="#experience">See my experience</a>
+          </div>
+        </div>
+        <aside class="stack" aria-labelledby="stack-heading">
+          <h2 id="stack-heading">My toolkit</h2>
+          <dl>
+            <div><dt>Languages</dt><dd>C++ · Python</dd></div>
+            <div><dt>Environment</dt><dd>Linux · GDB · Qt Creator</dd></div>
+            <div><dt>Build tools</dt><dd>Make · CMake</dd></div>
+            <div><dt>Focus</dt><dd>Data generation &amp; validation</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap band" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div>
+        <article class="role">
+          <p class="meta">Apr 2022 – Present</p>
+          <h3>Programmer Analyst</h3>
+          <p class="organization">Pollard Banknote Limited</p>
+          <p>I own the delivery of C++ scratch-ticket generation and validation on Linux, from clarifying customer requirements through implementation, testing, and production handoff.</p>
+          <ul class="history">
+            <li>Implement game rules and prize constraints, enforce barcode requirements, and extend security checks before production handoff.</li>
+            <li>Maintain a shared C++ codebase supporting <strong>100+ customer variants</strong>. I standardize reusable components and preserve compatibility as requirements evolve.</li>
+            <li>Build internal tools and move game setup into configuration, reducing manual coding for game setup by <strong>up to 50%</strong> and making reruns easier to reproduce.</li>
+            <li>Work with planning, production, and internal tool owners to resolve edge cases, prepare reports and datasets, and support releases and reruns.</li>
+            <li>Mentor new developers and maintain onboarding guides and technical documentation so teammates can get up to speed and troubleshoot independently.</li>
+          </ul>
+        </article>
+        <details>
+          <summary>Earlier experience &amp; education</summary>
+          <ul class="history">
+            <li><strong>Just Eat Takeaway</strong> · Career Support, Live Operations</li>
+            <li><strong>Exercism</strong> · Volunteer Mentor</li>
+            <li><strong>University of Manitoba</strong> · B.Sc. in Computer Science, 2021</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section class="wrap band" id="ai" aria-labelledby="ai-title">
+      <h2 id="ai-title">AI &amp; cloud</h2>
+      <div>
+        <p class="ai-intro">I’m interested in the engineering around an AI model: how an application retrieves the right data, calls the model, and checks whether its answers are useful.</p>
+        <ul class="history learning">
+          <li><strong>Python and machine learning.</strong> I’m studying data preparation, model evaluation, and how to take an experiment from a notebook into an application.</li>
+          <li><strong>Generative AI on AWS and Azure.</strong> I’ve written about how identity, networking, and storage shape applications built with Amazon Bedrock and Azure OpenAI, including retrieval-augmented generation (RAG).</li>
+        </ul>
+        <a class="text-link" href="https://www.linkedin.com/in/hiren456/recent-activity/all/">Read my LinkedIn posts</a>
+      </div>
+    </section>
+
+    <section class="wrap band" id="projects" aria-labelledby="projects-title">
+      <div>
+        <h2 id="projects-title">Projects</h2>
+      </div>
+      <div>
+        <div id="project-filters" class="filters" role="group" aria-label="Filter projects" hidden>
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="engineering" aria-pressed="false">Engineering</button>
+          <button type="button" data-filter="documentation" aria-pressed="false">Documentation</button>
+          <button type="button" data-filter="community" aria-pressed="false">Community</button>
+        </div>
+        <p class="sr-only" id="project-count" role="status"></p>
+        <!-- Duplicate or remove one article to add or remove a project. -->
+        <div id="project-list"></div>
+        <p id="project-empty">I’ll share my personal projects here as I build them.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer">
+    <p>Hiren Patel · Winnipeg, Canada</p>
+    <a href="https://www.linkedin.com/in/hiren456/">LinkedIn</a>
+    <a href="#main">Back to top</a>
+  </footer>
+</body>
+</html>
